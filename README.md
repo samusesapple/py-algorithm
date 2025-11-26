@@ -26,7 +26,7 @@
 
 ### ✔️ 핵심 문법
 - `range(a, b)` : a부터 b-1까지의 범위를 반복
-- `enumerate(interable)` : index, value 동시에 필요할 때 사용
+- `enumerate(iterable)` : index, value 동시에 필요할 때 사용
   ```python
   for idx, val in enumerate(nums):
       print(idx, val)
@@ -34,7 +34,7 @@
 - `sum(iterable)`: 배열에 있는 정수들의 합을 도출
 - `sum(range())`: 해당 범위에 속한 정수들의 합을 도출
 - `sorted(nums)`: 오름차순 정렬
-- `sorted(nums, True)`: 내림차순 정렬
+- `sorted(nums, reverse=True)`: 내림차순 정렬
 - list comprehension
   ```python
   각 요소를 2배로 만들기
@@ -45,6 +45,7 @@
   ```python
   for a, b in zip(list1, list2):
     print(a, b)
+  ```
     
 
 
